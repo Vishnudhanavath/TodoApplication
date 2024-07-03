@@ -1,0 +1,50 @@
+.create-task-heading {
+    font-family: "Roboto";
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.create-task-heading-subpart {
+    font-family: "Roboto";
+    font-size: 32px;
+    font-weight: 500;
+}
+
+.task-list ul {
+    padding: 0;
+  }
+  
+  .task-list li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .task-list li span {
+    flex-grow: 1;
+    margin-left: 10px;
+  }
+  
+  .task-list li button {
+    margin-left: 10px;
+  }
+
+  .checkbox-input {
+    width: 20px;
+    height: 20px;
+    margin-top: 12px;
+    margin-right: 12px;
+}
+.task-user-input-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.save-button{
+    margin:10px;
+}

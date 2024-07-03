@@ -1,0 +1,14 @@
+.task-input {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 9px;
+    /* padding:20px; */
+  }
+  
+  .task-input input {
+    margin-right: 10px;
+  }
+
+.addbutton{
+    margin-bottom: 15px;
+}
